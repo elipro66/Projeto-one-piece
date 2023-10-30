@@ -4,20 +4,35 @@
     box-sizing: border-box;
 }
 
+header,
+section h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
 header {
     padding: 16px 0;
     background-color: rgb(255, 132, 32);
-    color:#ecf0f1 ;
+    color: #ecf0f1;
 }
 
-header nav li  {
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header nav li a {
-    color:#ecf0f1 ;
+    color: #ecf0f1;
     text-decoration: none;
 }
 
@@ -27,11 +42,10 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container,
-section .container {
-display: flex;
-align-items: center;
-justify-content: space-between;
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .transfor-list img {
@@ -40,4 +54,33 @@ justify-content: space-between;
 
 .transfor-list li {
     display: inline;
-} 
+    margin-right: 8px;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section {
+    color: rgb(255, 132, 32);
+}
+
+section h2 {
+    margin-bottom: 16px;
+
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+
+}

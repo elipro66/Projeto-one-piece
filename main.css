@@ -82,5 +82,10 @@ section p {
 
 .store-front {
     margin-right: 32px;
+    
+}
 
+.imagens {
+    display: flex;
+    flex-direction: column;
 }

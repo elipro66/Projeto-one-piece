@@ -21,21 +21,25 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre one piece</a>
+                        <a href="#about">Sobre one piece</a>
                     </li>
                     <li>
-                        <a href="#">Deixe seu Feedback</a>
+                        <a href="#Feedback">Deixe seu Feedback</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
-            <img class="store-front" src="./Imagens/one-piece-1000x732.jpg" alt="logo do site one piece" height="500" />
-            <img  class="Imagens"   src="./Imagens/one-piece-1000x732.jpg" alt="imagem de baixo" height="500"  />    
+            <div class="imagens">
+                <img class="store-front" src="./Imagens/one-piece-1000x732.jpg" alt="logo do site one piece"
+                    height="500" />
+                <img class="store-front" src="./Imagens/one-piece-1000x732.jpg" alt="logo do site one piece"
+                    height="500" />
+            </div>
             <div>
-                <img src="./Imagens/one 2.jpg" alt="pagina mannga" height="100">
+                <img id="image-2" src="./Imagens/one 2.jpg" alt="pagina mannga" height="100">
                 <h2>Sobre one piece</h2>
                 <p>
                     One Piece (ワンピース Wan Pīsu?) é uma série de mangá escrita e ilustrada por Eiichiro Oda.
@@ -68,11 +72,56 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="Feedback">
         <div class="container">
             <h2>Feedback</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Manda mensagem pra gente</h3>
+                    <form action="">
+                        <input type="text" placeholder="Seu nome" required/>
+                        <input type="email" placeholder="Seu e-mail" required/>
+                        <input type="tel" placeholder="Seu telefone (opcional)">
+                        <textarea placeholder="Eu vou ser o rei dos piratas"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no instagram">
+                                <img src="./Imagens/instagram.png" alt="logo instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no facebook">
+                                <img src="./Imagens/facebook.png" alt="logo facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso canal no youtube">
+                                <img src="./Imagens/youtube.png" alt="logo youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Ilha Dawn n° 1000, East Blue - Novo Mundo - Mares 
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; One piece - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
